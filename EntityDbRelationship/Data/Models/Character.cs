@@ -1,4 +1,4 @@
-﻿namespace EntityDbRelationship.Models
+﻿namespace EntityDbRelationship.Data.Models
 {
     public class Character
     {

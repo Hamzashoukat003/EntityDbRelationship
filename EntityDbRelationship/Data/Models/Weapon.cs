@@ -1,13 +1,14 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace EntityDbRelationship.Models
+namespace EntityDbRelationship.Data.Models
 {
-    public class Backpack
+    public class Weapon
     {
         public int Id { get; set; }
-        public string Description { get; set; }
+        public string Name { get; set; }
         public int CharacterId { get; set; }
         [JsonIgnore]
         public Character Character { get; set; }
+
     }
 }

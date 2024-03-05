@@ -1,4 +1,4 @@
-﻿using EntityDbRelationship.Models;
+﻿using EntityDbRelationship.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityDbRelationship.Data
